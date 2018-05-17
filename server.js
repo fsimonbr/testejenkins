@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/new', (req, res) => {
-  res.send('Hello Docker Swarm - service\n');
+  res.send('Hello Docker Swarm - COMPASSO\n');
 });
 
 app.listen(PORT, HOST);
