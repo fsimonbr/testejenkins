@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/new', (req, res) => {
-  res.send('Hello Docker Swarm - COMPASSO - BEST 2018\n');
+  res.send('Hello Docker Swarm - COMPASSO - BEST 2018 05\n');
 });
 
 app.listen(PORT, HOST);
